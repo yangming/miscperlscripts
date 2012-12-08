@@ -23,3 +23,5 @@ splitpe.fasta.pl :                     Splits a combined paired end fasta file i
 splitpe.fastq.pl :                     Splits a combined paired end fastq file into two separate fastq files.
 
 template.pl :                          Nice perl template supplied by Mike Immelfort.
+
+select_paired_fq.pl :                  select paired reads in _1 and _2 fastq files which are trimmed and filtered. fastq files are fastq-dumped from NCBI SRA file. the script load all reads into memory, so be sure your machine has enouch menory. Usually, it will need memory of twice size of your files.
